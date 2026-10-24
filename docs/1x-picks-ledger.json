@@ -1,0 +1,232 @@
+{
+  "picks": [
+    {
+      "home": "Milton Keynes Dons",
+      "away": "Reading",
+      "comp": "League One",
+      "dump": "3ca8357f",
+      "status": "unresolved"
+    },
+    {
+      "home": "Piast Gliwice",
+      "away": "Widzew Lodz",
+      "comp": "Ekstraklasa",
+      "dump": "3ca8357f",
+      "status": "unresolved"
+    },
+    {
+      "home": "Pogon Szczecin",
+      "away": "Korona Kielce",
+      "comp": "Ekstraklasa",
+      "dump": "3ca8357f",
+      "status": "confirmed_hit",
+      "score": "1:0"
+    },
+    {
+      "home": "Ind Rivadavia",
+      "away": "Gimnasia L P",
+      "comp": "Liga Profesional - Clausura",
+      "dump": "4f32e152",
+      "status": "confirmed_hit",
+      "score": "1:1"
+    },
+    {
+      "home": "Inter Toronto",
+      "away": "Cavalry",
+      "comp": "Canadian Premier League",
+      "dump": "4f32e152",
+      "status": "confirmed_hit",
+      "score": "0:0"
+    },
+    {
+      "home": "Forge Fc",
+      "away": "Hfx Wanderers",
+      "comp": "Canadian Premier League",
+      "dump": "4f32e152",
+      "status": "confirmed_hit",
+      "score": "1:0"
+    },
+    {
+      "home": "Talleres Cordoba",
+      "away": "Independiente",
+      "comp": "Liga Profesional - Clausura",
+      "dump": "58d93f00",
+      "status": "confirmed_hit",
+      "score": "0:0"
+    },
+    {
+      "home": "Gimnasia Mendoza",
+      "away": "Newells Old Boys",
+      "comp": "Liga Profesional - Clausura",
+      "dump": "3153df63",
+      "status": "unresolved"
+    },
+    {
+      "home": "Al Najma",
+      "away": "Damac",
+      "comp": "Division 1",
+      "dump": "3153df63",
+      "status": "unresolved"
+    },
+    {
+      "home": "Keciorengucu",
+      "away": "Igdir Fk",
+      "comp": "1. Lig",
+      "dump": "1c96a64e",
+      "status": "unresolved"
+    },
+    {
+      "home": "Rapid Vienna",
+      "away": "Hartberg",
+      "comp": "Bundesliga",
+      "dump": "01dd06a5",
+      "status": "confirmed_hit",
+      "score": "1:0"
+    },
+    {
+      "home": "Reims",
+      "away": "Dijon",
+      "comp": "Ligue 2",
+      "dump": "01dd06a5",
+      "status": "unresolved"
+    },
+    {
+      "home": "Sport Recife",
+      "away": "Fortaleza",
+      "comp": "Serie B",
+      "dump": "de1bccdb",
+      "status": "unresolved"
+    },
+    {
+      "home": "Vojvodina",
+      "away": "Radnicki 1923",
+      "comp": "Mozzart Bet Super Liga",
+      "dump": "de1bccdb",
+      "status": "unresolved"
+    },
+    {
+      "home": "Philadelphia Union",
+      "away": "Charlotte Fc",
+      "comp": "MLS",
+      "dump": "de1bccdb",
+      "status": "unresolved"
+    },
+    {
+      "home": "Cf Montreal",
+      "away": "Atlanta United",
+      "comp": "MLS",
+      "dump": "a8002496",
+      "status": "unresolved"
+    },
+    {
+      "home": "Como",
+      "away": "Sassuolo",
+      "comp": "Serie A",
+      "dump": "4fb58bfc",
+      "status": "unresolved"
+    },
+    {
+      "home": "Rapid Vienna",
+      "away": "A Lustenau",
+      "comp": "Bundesliga",
+      "dump": "4fb58bfc",
+      "status": "unresolved"
+    },
+    {
+      "home": "Westerlo",
+      "away": "Sk Beveren",
+      "comp": "Jupiler Pro League",
+      "dump": "4fb58bfc",
+      "status": "unresolved"
+    },
+    {
+      "home": "Atl Madrid",
+      "away": "Dep A Coruna",
+      "comp": "LaLiga",
+      "dump": "4fb58bfc",
+      "status": "unresolved"
+    }
+  ],
+  "excluded_by_override": [
+    {
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "reason": "class mismatch, away top club on tiny sample"
+    },
+    {
+      "home": "Lanus",
+      "away": "Velez Sarsfield",
+      "reason": "Walsall case - 0 wins but only 1 loss in 8 overall"
+    },
+    {
+      "home": "Villarreal",
+      "away": "Napoli",
+      "reason": "Champions League, top club away"
+    },
+    {
+      "home": "Galatasaray",
+      "away": "Barcelona",
+      "reason": "Champions League, top club away"
+    },
+    {
+      "home": "Al Ittihad",
+      "away": "Shabab Al Ahli Dubai",
+      "reason": "AFC Champions League, top club away"
+    },
+    {
+      "home": "Lask Linz",
+      "away": "Liverpool",
+      "reason": "Champions League, top club away"
+    },
+    {
+      "home": "As Roma",
+      "away": "Real Madrid",
+      "reason": "Champions League, top club away"
+    },
+    {
+      "home": "Salzburg",
+      "away": "Ac Milan",
+      "reason": "Europa League, top club away"
+    },
+    {
+      "home": "Kf Egnatia",
+      "away": "Midtjylland",
+      "reason": "Conference League"
+    },
+    {
+      "home": "Hajduk Split",
+      "away": "Ajax",
+      "reason": "Conference League"
+    },
+    {
+      "home": "Stade Nyonnais",
+      "away": "Basel",
+      "reason": "cup, borderline sample + Basel class"
+    },
+    {
+      "home": "St Liege",
+      "away": "Dender",
+      "reason": "cup, borderline sample + resilient overall form"
+    },
+    {
+      "home": "Brentford",
+      "away": "Liverpool",
+      "reason": "Premier League, top club away"
+    },
+    {
+      "home": "Betis",
+      "away": "Barcelona",
+      "reason": "LaLiga, top club away"
+    },
+    {
+      "home": "Gks Katowice",
+      "away": "Pogon Szczecin",
+      "reason": "Walsall case - Pogon 0 losses overall in 6"
+    },
+    {
+      "home": "Al Ahly",
+      "away": "Al Qanah",
+      "reason": "Walsall case - only 1 loss in 6 overall"
+    }
+  ]
+}
