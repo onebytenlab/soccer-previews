@@ -123,7 +123,8 @@
       "away": "Sassuolo",
       "comp": "Serie A",
       "dump": "4fb58bfc",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "2:0"
     },
     {
       "home": "Rapid Vienna",
@@ -137,13 +138,36 @@
       "away": "Sk Beveren",
       "comp": "Jupiler Pro League",
       "dump": "4fb58bfc",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "4:4"
     },
     {
       "home": "Atl Madrid",
       "away": "Dep A Coruna",
       "comp": "LaLiga",
       "dump": "4fb58bfc",
+      "status": "confirmed_hit",
+      "score": "1:0"
+    },
+    {
+      "home": "St Liege",
+      "away": "Kortrijk",
+      "comp": "Jupiler Pro League",
+      "dump": "1771d5c3",
+      "status": "unresolved"
+    },
+    {
+      "home": "Betis",
+      "away": "Malaga",
+      "comp": "LaLiga",
+      "dump": "1771d5c3",
+      "status": "unresolved"
+    },
+    {
+      "home": "Como",
+      "away": "Venezia",
+      "comp": "Serie A",
+      "dump": "1771d5c3",
       "status": "unresolved"
     }
   ],
@@ -227,6 +251,11 @@
       "home": "Al Ahly",
       "away": "Al Qanah",
       "reason": "Walsall case - only 1 loss in 6 overall"
+    },
+    {
+      "home": "Colchester",
+      "away": "Walsall",
+      "reason": "Walsall case (literally) - 2 losses in 13 overall, highly resilient despite 0 away wins"
     }
   ]
 }
