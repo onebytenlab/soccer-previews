@@ -59,7 +59,8 @@
       "away": "Newells Old Boys",
       "comp": "Liga Profesional - Clausura",
       "dump": "3153df63",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "0:0"
     },
     {
       "home": "Al Najma",
@@ -131,7 +132,8 @@
       "away": "A Lustenau",
       "comp": "Bundesliga",
       "dump": "4fb58bfc",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "5:1"
     },
     {
       "home": "Westerlo",
