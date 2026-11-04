@@ -163,7 +163,8 @@
       "away": "Malaga",
       "comp": "LaLiga",
       "dump": "1771d5c3",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "2:1"
     },
     {
       "home": "Como",
