@@ -89,7 +89,8 @@
       "away": "Dijon",
       "comp": "Ligue 2",
       "dump": "01dd06a5",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "2:1"
     },
     {
       "home": "Sport Recife",
@@ -156,7 +157,8 @@
       "away": "Kortrijk",
       "comp": "Jupiler Pro League",
       "dump": "1771d5c3",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "1:1"
     },
     {
       "home": "Betis",
@@ -171,6 +173,41 @@
       "away": "Venezia",
       "comp": "Serie A",
       "dump": "1771d5c3",
+      "status": "unresolved"
+    },
+    {
+      "home": "Millonarios",
+      "away": "America De Cali",
+      "comp": "Primera A - Clausura",
+      "dump": "8cf23a2f",
+      "status": "unresolved"
+    },
+    {
+      "home": "Palmeiras",
+      "away": "Remo",
+      "comp": "Serie A",
+      "dump": "8cf23a2f",
+      "status": "unresolved"
+    },
+    {
+      "home": "Rapid Vienna",
+      "away": "Wolfsberger Ac",
+      "comp": "Bundesliga",
+      "dump": "8cf23a2f",
+      "status": "unresolved"
+    },
+    {
+      "home": "Montpellier",
+      "away": "Metz",
+      "comp": "Ligue 2",
+      "dump": "8cf23a2f",
+      "status": "unresolved"
+    },
+    {
+      "home": "St Liege",
+      "away": "Sk Beveren",
+      "comp": "Jupiler Pro League",
+      "dump": "8cf23a2f",
       "status": "unresolved"
     }
   ],
