@@ -111,14 +111,16 @@
       "away": "Charlotte Fc",
       "comp": "MLS",
       "dump": "de1bccdb",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "2:2"
     },
     {
       "home": "Cf Montreal",
       "away": "Atlanta United",
       "comp": "MLS",
       "dump": "a8002496",
-      "status": "unresolved"
+      "status": "confirmed_miss",
+      "score": "0:3"
     },
     {
       "home": "Como",
