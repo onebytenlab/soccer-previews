@@ -175,7 +175,8 @@
       "away": "Venezia",
       "comp": "Serie A",
       "dump": "1771d5c3",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "1:0"
     },
     {
       "home": "Millonarios",
@@ -210,6 +211,20 @@
       "away": "Sk Beveren",
       "comp": "Jupiler Pro League",
       "dump": "8cf23a2f",
+      "status": "unresolved"
+    },
+    {
+      "home": "Hartberg",
+      "away": "Altach",
+      "comp": "Bundesliga",
+      "dump": "cc154390",
+      "status": "unresolved"
+    },
+    {
+      "home": "Gent",
+      "away": "Kortrijk",
+      "comp": "Jupiler Pro League",
+      "dump": "cc154390",
       "status": "unresolved"
     }
   ],
