@@ -226,6 +226,13 @@
       "comp": "Jupiler Pro League",
       "dump": "cc154390",
       "status": "unresolved"
+    },
+    {
+      "home": "Aurora",
+      "away": "Club Universitario De Vinto",
+      "comp": "Division Profesional",
+      "dump": "d41a8850",
+      "status": "unresolved"
     }
   ],
   "excluded_by_override": [
