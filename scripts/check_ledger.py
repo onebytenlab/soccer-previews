@@ -42,6 +42,21 @@ for pick in picks:
     if pick['status'] != 'unresolved':
         continue
     home, away = pick['home'], pick['away']
+
+    # Find this fixture's own kickoff date wherever it appears as an upcoming
+    # fixture (team1=home, team2=away) - used as the cutoff so we never
+    # mistake a PAST head-to-head (already part of the pick's own history,
+    # e.g. an earlier leg) for the pick's actual outcome.
+    c.execute("""
+        SELECT MIN(kickoff) FROM rows WHERE team1=? AND team2=?
+    """, (home, away))
+    kickoff = c.fetchone()[0]
+    if kickoff is None:
+        kickoff = pick.get('kickoff')  # fall back to stored value if we have it
+    if kickoff is None:
+        print(f"[SKIP] {home} vs {away}: fixture kickoff not found in any dump, cannot safely date-filter, skipping")
+        continue
+
     # Strategy 1: this exact fixture (home,away) shows up self-leaked (hist_id=fixture_id) in ANY dump
     c.execute("""
         SELECT src, goals_for, goals_against FROM rows
@@ -49,18 +64,21 @@ for pick in picks:
     """, (home, away, home))
     r = c.fetchone()
     if r:
-        print(f"[SELF-LEAK] {home} {r[1]}:{r[2]} {away}  (src={r[0]})")
+        print(f"[SELF-LEAK] {home} {r[1]}:{r[2]} {away}  (src={r[0]}, kickoff={kickoff})")
         found_any = True
         continue
-    # Strategy 2: home team appears as 'team' with hist_opponent=away, hist_side='home', in ANY dump's history rows
+    # Strategy 2: home team appears as 'team' with hist_opponent=away, hist_side='home',
+    # in ANY dump's history rows, STRICTLY AFTER this fixture's own kickoff
+    # (otherwise it's just an earlier leg/H2H already baked into the pick's own stats).
     c.execute("""
         SELECT DISTINCT hist_date, goals_for, goals_against, src FROM rows
         WHERE team=? AND hist_opponent=? AND hist_side='home' AND goals_for IS NOT NULL
-        ORDER BY hist_date DESC LIMIT 3
-    """, (home, away))
+              AND hist_date >= ?
+        ORDER BY hist_date ASC LIMIT 3
+    """, (home, away, kickoff))
     rows2 = c.fetchall()
     if rows2:
-        print(f"[HIST-ROW] {home} vs {away} seen as history elsewhere: {rows2}")
+        print(f"[HIST-ROW] {home} vs {away} (kickoff={kickoff}) resolved after kickoff: {rows2}")
         found_any = True
         continue
 
