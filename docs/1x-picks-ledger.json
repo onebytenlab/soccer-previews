@@ -183,7 +183,8 @@
       "away": "America De Cali",
       "comp": "Primera A - Clausura",
       "dump": "8cf23a2f",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "0:0"
     },
     {
       "home": "Palmeiras",
@@ -232,6 +233,27 @@
       "away": "Club Universitario De Vinto",
       "comp": "Division Profesional",
       "dump": "d41a8850",
+      "status": "unresolved"
+    },
+    {
+      "home": "Angola",
+      "away": "South Sudan",
+      "comp": "Africa Cup of Nations",
+      "dump": "14073416",
+      "status": "unresolved"
+    },
+    {
+      "home": "Mirassol",
+      "away": "Atletico Mg",
+      "comp": "Serie A",
+      "dump": "14073416",
+      "status": "unresolved"
+    },
+    {
+      "home": "Eibar",
+      "away": "Cadiz",
+      "comp": "LaLiga2",
+      "dump": "14073416",
       "status": "unresolved"
     }
   ],
