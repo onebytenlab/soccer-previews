@@ -191,7 +191,8 @@
       "away": "Remo",
       "comp": "Serie A",
       "dump": "8cf23a2f",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "6:1"
     },
     {
       "home": "Rapid Vienna",
@@ -255,6 +256,13 @@
       "away": "Cadiz",
       "comp": "LaLiga2",
       "dump": "14073416",
+      "status": "unresolved"
+    },
+    {
+      "home": "Fredericia",
+      "away": "Hillerod",
+      "comp": "1st Division",
+      "dump": "f2d267bd",
       "status": "unresolved"
     }
   ],
