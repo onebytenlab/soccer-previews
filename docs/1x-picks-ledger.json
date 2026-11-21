@@ -234,7 +234,8 @@
       "away": "Club Universitario De Vinto",
       "comp": "Division Profesional",
       "dump": "d41a8850",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "1:1"
     },
     {
       "home": "Angola",
@@ -249,7 +250,8 @@
       "away": "Atletico Mg",
       "comp": "Serie A",
       "dump": "14073416",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "0:0"
     },
     {
       "home": "Eibar",
@@ -263,6 +265,13 @@
       "away": "Hillerod",
       "comp": "1st Division",
       "dump": "f2d267bd",
+      "status": "unresolved"
+    },
+    {
+      "home": "Genk",
+      "away": "Raal La Louviere",
+      "comp": "Jupiler Pro League",
+      "dump": "2ca16cfb",
       "status": "unresolved"
     }
   ],
