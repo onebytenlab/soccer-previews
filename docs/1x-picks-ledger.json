@@ -273,6 +273,13 @@
       "comp": "Jupiler Pro League",
       "dump": "2ca16cfb",
       "status": "unresolved"
+    },
+    {
+      "home": "Hvidovre If",
+      "away": "Kolding If",
+      "comp": "1st Division",
+      "dump": "f36d901f",
+      "status": "unresolved"
     }
   ],
   "excluded_by_override": [
