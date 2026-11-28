@@ -199,7 +199,8 @@
       "away": "Wolfsberger Ac",
       "comp": "Bundesliga",
       "dump": "8cf23a2f",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "6:0"
     },
     {
       "home": "Montpellier",
@@ -213,21 +214,24 @@
       "away": "Sk Beveren",
       "comp": "Jupiler Pro League",
       "dump": "8cf23a2f",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "3:0"
     },
     {
       "home": "Hartberg",
       "away": "Altach",
       "comp": "Bundesliga",
       "dump": "cc154390",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "3:0"
     },
     {
       "home": "Gent",
       "away": "Kortrijk",
       "comp": "Jupiler Pro League",
       "dump": "cc154390",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "1:0"
     },
     {
       "home": "Aurora",
@@ -258,7 +262,8 @@
       "away": "Cadiz",
       "comp": "LaLiga2",
       "dump": "14073416",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "1:1"
     },
     {
       "home": "Fredericia",
@@ -272,7 +277,8 @@
       "away": "Raal La Louviere",
       "comp": "Jupiler Pro League",
       "dump": "2ca16cfb",
-      "status": "unresolved"
+      "status": "confirmed_hit",
+      "score": "3:0"
     },
     {
       "home": "Hvidovre If",
